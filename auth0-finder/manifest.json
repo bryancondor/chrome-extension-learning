@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Auth0 Finder",
+    "description": "Finder in Auth0",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/finder.js"
+            ],
+            "matches": [
+                "https://manage.auth0.com/dashboard/us/*/applications"
+            ]
+        }
+    ]
+}
