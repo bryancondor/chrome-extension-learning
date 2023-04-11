@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    
+}
+
+form{
+    background-color: #386899;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    padding: 8px;
+
+}
+
+input{
+    outline: none;
+}
+
+button{
+    border-color: white;
+    border-width: 1px;
+    background: transparent;
+    border-style: solid;
+    border-radius: 2px;
+    color: inherit;
+    height: 22px;
+}

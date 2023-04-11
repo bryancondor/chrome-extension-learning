@@ -3,10 +3,14 @@
     "name": "Auth0 Finder",
     "description": "Finder in Auth0",
     "version": "1.0",
+    "action": {
+        "default_title": "Search application name in Auth0",
+        "default_popup": "popup.html"
+    },
     "content_scripts": [
         {
             "js": [
-                "scripts/finder.js"
+                "finder.js"
             ],
             "matches": [
                 "https://manage.auth0.com/dashboard/us/*/applications"
